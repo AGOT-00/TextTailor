@@ -1,0 +1,45 @@
+fieldset{
+    border:none;
+    margin:0;
+    padding:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items: start;
+}
+
+
+.formCentre{
+    grid-column: span 2;
+    margin: 30px auto;
+    max-width: 170px;
+    min-width: 100px;
+}
+
+legend{
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn{
+  
+    border-radius: 12px;
+    background-color: #f4ce14;
+    color: #495e57;
+    height: 40px;
+    border: none;
+}
+
+input{
+    height: 30px;
+    border-radius: 12px;
+}
+
+.submit-btn:hover{
+  
+        cursor: pointer;
+        transform: scale(1.05,1.05);
+        transition: transform .3s ease-in;
+}

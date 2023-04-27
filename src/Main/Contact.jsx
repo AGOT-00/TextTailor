@@ -13,12 +13,13 @@ function Contact() {
           <h1 className="text-5xl text-bold mb-8">Contact us</h1>
           <div className="flex flex-row mb-8">
             <fieldset className="flex flex-col">
-              <label>Your Name : </label>
-              <input type="text" className="ml-8 mr-8 h-8 rounded "></input>
-              <label>Email : </label>
+              <label for = "name">Your Name : </label>
+              <input type="text" id="name" required className="ml-8 mr-8 h-8 rounded "></input>
+              <label for="email">Email : </label>
               <input
                 type="text"
                 className="ml-8 mr-8 h-8 rounded w-3/4 mt-8"
+                id = "email"
               ></input>
               <div></div>
             </fieldset>
