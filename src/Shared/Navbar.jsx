@@ -1,4 +1,6 @@
 import React from "react";
+import {Link} from 'react-router-dom';
+
 
 function Navbar(props) {
   const showMenu = props.showMenu;
@@ -54,10 +56,13 @@ function Navbar(props) {
               Contact Us
             </a>
           </li>
-          <button className="bg-red-400 px-6 py-2 mx-4 hover:bg-green-700 rounded">
-            Login
-          </button>
+          {/*s <button className="bg-red-400 px-6 py-2 mx-4 hover:bg-green-700 rounded">
+          </button> */}
+          <li>
+          <Link  to="/login" className="bg-red-400 px-6 py-2 mx-4 hover:bg-green-700 rounded">Login</Link> 
+          </li>
         </ul>
+
       </div>
 
       <script></script>
